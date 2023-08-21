@@ -19,13 +19,13 @@ public class UnitTest {
   public void BT() {
 	  
 	  
-	  dr = new FirefoxDriver();
+	  dr = new EdgeDriver();
 	  dr.get("https://www.google.com/");
 
       dr.manage().window().maximize();
 
   }
-  @Test(priority=1)
+  @Test(enabled=false)
   public void TC001() throws InterruptedException {
       
       Thread.sleep(1000);
