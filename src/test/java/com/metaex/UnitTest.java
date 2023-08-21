@@ -19,7 +19,7 @@ public class UnitTest {
   public void BT() {
 	  
 	  
-	  dr = new EdgeDriver();
+	  dr = new FirefoxDriver();
 	  dr.get("https://www.google.com/");
 
       dr.manage().window().maximize();
