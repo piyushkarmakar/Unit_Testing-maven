@@ -19,7 +19,7 @@ public class UnitTest {
 	  
 	  
 	  dr = new EdgeDriver();
-	  dr.get("http://localhost:9093/");
+	  dr.get("http://13.49.80.139:9090/MetaEx-0.0.1-SNAPSHOT/");
 
       dr.manage().window().maximize();
 //	  System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe"); // Set the path to your geckodriver executable
