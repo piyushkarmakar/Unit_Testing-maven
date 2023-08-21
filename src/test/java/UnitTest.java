@@ -18,7 +18,7 @@ public class UnitTest {
   public void BT() {
 	  
 	  
-	  dr = new EdgeDriver();
+	  dr = new ChromeDriver();
 	  dr.get("http://13.49.80.139:9090/MetaEx-0.0.1-SNAPSHOT/");
 
       dr.manage().window().maximize();
