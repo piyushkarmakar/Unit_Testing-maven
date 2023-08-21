@@ -18,7 +18,7 @@ public class UnitTest {
   public void BT() {
 	  
 	  
-	  dr = new ChromeDriver();
+	  dr = new EdgeDriver();
 	  dr.get("http://localhost:9093/");
 
       dr.manage().window().maximize();
