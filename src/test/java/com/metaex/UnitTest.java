@@ -20,7 +20,7 @@ public class UnitTest {
 	  
 	  
 	  dr = new EdgeDriver();
-	  dr.get("http://13.49.80.139:9090/MetaEx-0.0.1-SNAPSHOT/");
+	  dr.get("https://www.google.com/");
 
       dr.manage().window().maximize();
 
